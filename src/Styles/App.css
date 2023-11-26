@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(138, 209, 214);
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(10, 61, 61);
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px 0;
+}
+input[type=text]{
+    outline: none;
+    width: 70%;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 30px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+button{
+    width: 15%;
+    background-color: rgb(44, 203, 220);
+    color: black;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    margin-left: 2%;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(17, 109, 16);
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+.header{
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+  
+}
+
+.List-heading{
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+margin-left:7%;
+    background-color:crimson;
+    width: 60%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.listData{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(204, 252, 252);
+    width: 50%;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-height: 45px;
+}
+
+.btn{
+    position: relative;
+    left: 20%;
+    top: -47px;
+}
+@media  only screen and (max-width:976px) {
+    .container{
+        background-color: rgb(10, 61, 61);
+        width: 98%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px gray;
+       margin: auto;
+        margin-top: 5%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    input[type=text]{
+        outline: none;
+        width: 60%;
+        padding: 12px 20px;
+        font-size: 14px;
+        margin: 30px 0;
+        
+        border: none;
+        border-radius: 5px;
+       
+    }
+    button{
+        width: 30%;
+        background-color: rgb(44, 203, 220);
+        color: black;
+        font-size: 13px;
+        padding: 12px 10px;
+        border: none;
+        margin-left: 2%;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    
+.List-heading{
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+margin-left:2%;
+    background-color:crimson;
+    width: 95%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.listData{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(204, 252, 252);
+    width: 50%;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    min-height: 40px;
+}
+
+.btn{
+    position: relative;
+    left: 20%;
+    top: -42px;
+}
+}
